@@ -23,7 +23,7 @@ dist-ssr
 *.sw?
 
 # Pasta assets da raiz (substituída por public/assets)
-assets/
+/assets/
 
 # Assets do template Vite
 src/assets/react.svg
