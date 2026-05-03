@@ -1,5 +1,6 @@
 import { Flame, ArrowUpDown, Beef, Layers, SprayCan, SlidersHorizontal, ShieldCheck } from 'lucide-react'
 import { WhatsAppIcon } from './WhatsAppIcon'
+import { asset } from '../utils/asset'
 
 const WA_LINK = 'https://wa.me/5516991019366'
 
@@ -20,7 +21,7 @@ export function BrasaAlta() {
         <div className="brasa-grid">
           <div className="brasa-logo-box reveal">
             <img
-              src="/assets/logo.jpeg"
+              src={asset('assets/logo.jpeg')}
               alt="Logo Brasa Alta"
               loading="lazy"
             />
@@ -69,7 +70,7 @@ export function BrasaAlta() {
         <div className="brasa-product-showcase reveal">
           <div className="brasa-showcase-img-wrap">
             <img
-              src="/assets/brasa-produto.jpeg"
+              src={asset('assets/brasa-produto.jpeg')}
               alt="Brasa Alta — Suporte para Carvão com Regulagem de Altura"
               loading="lazy"
             />

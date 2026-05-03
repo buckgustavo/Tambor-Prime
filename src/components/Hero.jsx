@@ -1,5 +1,6 @@
 import { Flame, ChevronDown } from 'lucide-react'
 import { WhatsAppIcon } from './WhatsAppIcon'
+import { asset } from '../utils/asset'
 
 const WA_LINK = 'https://wa.me/5516991019366'
 
@@ -14,7 +15,7 @@ export function Hero() {
         playsInline
         preload="auto"
       >
-        <source src="/assets/hero.mp4" type="video/mp4" />
+        <source src={asset('assets/hero.mp4')} type="video/mp4" />
       </video>
 
       <div className="hero-overlay" />

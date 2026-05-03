@@ -1,5 +1,6 @@
 import { Beef, Timer, UtensilsCrossed, Tag, CalendarDays } from 'lucide-react'
 import { WhatsAppIcon } from './WhatsAppIcon'
+import { asset } from '../utils/asset'
 
 const WA_LINK = 'https://wa.me/5516991019366'
 
@@ -46,7 +47,7 @@ export function ProductSection() {
           <div className="ps-left reveal">
             <div className="ps-logo-card">
               <img
-                src="/assets/tambor-logo.jpeg"
+                src={asset('assets/tambor-logo.jpeg')}
                 alt="Tambor Prime Grill"
                 className="ps-logo-img"
               />
